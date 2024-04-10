@@ -9,7 +9,7 @@ interface UserProps {
 
 export function User({ user }: UserProps) {
 	return (
-		<div className='container mx-auto p-10 border shadow-md w-[700px] h-[500px]'>
+		<div className='container mx-auto p-10 border shadow-md mt-4 w-[700px] h-[500px]'>
 			<UserInfo
 				avatar_url={user.avatar_url}
 				created_at={user.created_at}
